@@ -1,6 +1,7 @@
 import os
 from typing import TypedDict, Annotated
 
+
 from dotenv import load_dotenv
 from langchain_core.messages import HumanMessage, AIMessage
 from langchain_google_genai import ChatGoogleGenerativeAI
